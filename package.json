@@ -1,0 +1,21 @@
+{
+  "name": "iemoto-groundworkcss-2",
+  "title": "Iemoto GroundworkCSS 2",
+  "description": "GroundworkCSS 2 theme based on Underscores",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gatespace/iemoto-gcss2",
+  "author": {
+    "name": "gatespace",
+    "url": "http://gatespace.jp/"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-coffee": "^2.2.0",
+    "gulp-compass": "^1.3.1",
+    "gulp-concat": "^2.4.1",
+    "gulp-jshint": "^1.8.4",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-replace": "^0.4.0"
+  },
+  "keywords": []
+}

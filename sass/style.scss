@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/*!
+Theme Name: Iemoto GroundworkCSS 2
+Theme URI: https://github.com/gatespace/iemoto-gcss2
+Author: gatespace
+Author URI: http://gatespace.jp/
+Description: GroundworkCSS 2 theme based on Underscores
+Version: <%= pkg.version %>
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: iemoto
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Iemoto GroundworkCSS 2 is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Use GroundworkCSS (MIT License) http://groundworkcss.github.io/groundwork/
+*/
+
+/*--------------------------------------------------------------
+ >>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 GroundworkCSS
+2.0 Navigation
+3.0 Accessibility
+4.0 Alignments
+5.0 Widgets
+6.0 Content
+	6.1 Posts and pages
+	6.2 Asides
+	6.3 Comments
+7.0 Infinite scroll
+8.0 Media
+	8.1 Captions
+	8.2 Galleries
+-------------------------------------------------------------- */
+@import "compass";
+
+/*--------------------------------------------------------------
+1.0 GroundworkCSS
+-------------------------------------------------------------- */
+@import "groundwork";
+
+/*--------------------------------------------------------------
+2.0 Navigation
+-------------------------------------------------------------- */
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+3.0 Accessibility
+-------------------------------------------------------------- */
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+4.0 Alignments
+-------------------------------------------------------------- */
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+5.0 Widgets
+-------------------------------------------------------------- */
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+6.0 Content
+-------------------------------------------------------------- */
+@import "site/site";
+
+/*--------------------------------------------------------------
+7.0 Infinite scroll
+-------------------------------------------------------------- */
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+8.0 Media
+-------------------------------------------------------------- */
+@import "media/media";
