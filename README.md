@@ -9,9 +9,15 @@ Getting Started
 ---------------
 
 ```
-npm install
-bower update
-gulp
+$ npm install
+$ bower update
+$ gulp init
+```
+
+Sass compail
+
+```
+$ gulp
 ```
 
 Good luck!
